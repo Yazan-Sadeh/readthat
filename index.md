@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+# readthat
+![image](https://user-images.githubusercontent.com/79832871/109927401-d6920b00-7ccc-11eb-9627-fcc4a199cf95.png)
 
-You can use the [editor on GitHub](https://github.com/Yazan-Sadeh/readthat/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+** **Unit (17) talks about the new elements of HTML5 that help describe the structure of web pages, and that provide clear symbols through the <div> usage of multiple elements. In the event that an old browser is used, the browser must understand the components of the page. To run HTML5 on old versions of Internet browsers, extra Java Script should be used. An example is cooking sites that use HTML5 elements to describe the page structure.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+** **_ _TUnit (18) talks about the most important steps of page design, which is creating a site map, which is meant by the site diagram (organizational chart), which helps in determining the page information, to turn into a diagram that shows the sections and branches of the page.
 
-### Markdown
+*** ***In addition to the page viewing category, what is the purpose of entering the page, and when can the visitor log in again, and that is through (Site Maps)? And allowing the visitor to obtain the information in an organized and clear manner, and whether or not he can obtain the information from visiting the site.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Yazan-Sadeh/readthat/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Examples / some codes:
+Asides:
+<aside>
+<section class="popular-recipes">
+ <h2>Popular Recipes</h2>
+ <a href="">Yakitori (grilled chicken)</a>
+ <a href="">Tsukune (minced chicken patties)</a>
+ <a href="">Okonomiyaki (savory pancakes)</a>
+ <a href="">Mizutaki (chicken stew)</a>
+</section>
+<section class="contact-details">
+ <h2>Contact</h2>
+ <p>Yoko's Kitchen<br />
+ 27 Redchurch Street<br />
+ Shoreditch<br />
+ London E2 7DP</p>
+</section>
+</aside>
+Sections and links:
+<section class="popular-recipes">
+<h2>Popular Recipes</h2>
+<a href="">Yakitori (grilled chicken)</a>
+<a href="">Tsukune (minced chicken patties)</a>
+<a href="">Okonomiyaki (savory pancakes)</a>
+<a href="">Mizutaki (chicken stew)</a>
+</section>
+<section class="contact-details">
+<h2>Contact</h2>
+<p>Yoko's Kitchen<br />
+ 27 Redchurch Street<br />
+ Shoreditch<br />
+ London E2 7DP</p>
+</section>
+nav for html:
+<nav>
+<ul>
+ <li><a href="" class="current">home</a></li>
+ <li><a href="">classes</a></li>
+ <li><a href="">catering</a></li>
+ <li><a href="">about</a></li>
+ <li><a href="">contact</a></li>
+</ul>
+</nav
